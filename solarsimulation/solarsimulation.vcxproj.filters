@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8792506f-c7f4-456a-a93c-675e2da521a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="solarsimulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\glad\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_s.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="std_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertices.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vShaderFile.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fShaderFile.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\earthBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\jupiterBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\marsBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\mercuryBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\neptuneBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\saturnBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\sunBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\uranusBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\venusBlock.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
